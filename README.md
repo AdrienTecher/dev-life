@@ -1,2 +1,3 @@
-# dev-life
-A repositories for my various configurations,  extension packs and templates.
+# Welcome !
+
+Welcome to Dev Life a repository for my various configurations, extension packs and templates.
