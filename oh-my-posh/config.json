@@ -15,7 +15,7 @@
         {
           "type": "os",
           "style": "diamond",
-          "foreground": "#9fc5ff",
+          "foreground": "#9fb9ff",
           "background": "#fffffff1",
           "leading_diamond": "\uE0C7",
           "trailing_diamond": "\uE0C6  "

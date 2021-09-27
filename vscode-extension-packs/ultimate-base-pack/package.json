@@ -1,0 +1,94 @@
+{
+  "name": "ultimate-base-pack",
+  "displayName": "Ultimate Base Pack",
+  "description": "Bootstrap your developer experience, style and productivity.",
+  "version": "0.0.1",
+  "publisher": "AdrienTecher",
+  "author": {
+    "name": "Adrien Techer"
+  },
+  "icon": "assets/launch.png",
+  "galleryBanner": {
+    "color": "#742ee6",
+    "theme": "dark"
+  },
+  "keywords": [
+    "prettier",
+    "live",
+    "VSCode Live",
+    "Live audio",
+    "ultimate pack",
+    "base pack",
+    "bracket",
+    "color",
+    "colour",
+    "one dark pro",
+    "icons",
+    "material icon theme",
+    "spelling",
+    "formatter",
+    "comments",
+    "colorizer",
+    "spell checker",
+    "bookmarks",
+    "beautiful",
+    "pretty",
+    "aesthetics",
+    "esthetics",
+    "essential",
+    "git",
+    "project",
+    "productivity",
+    "manage",
+    "management",
+    "github",
+    "gitlab",
+    "gitkraken",
+    "gitlens",
+    "gitignore",
+    "git-graph",
+    "tool",
+    "tools",
+    "cheatsheet",
+    "markdown",
+    "linter",
+    "emojis",
+    ""
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "license": "MIT",
+  "main": "./build/extension",
+  "bugs": {
+    "url": "https://github.com/AdrienTecher/dev-life/issues",
+    "email": "adrien.techer.public@protonmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdrienTecher/dev-life.git"
+  },
+  "homepage": "https://github.com/AdrienTecher/dev-life/blob/main/vscode-extension-packs/ultimate-base-pack/README.md",
+  "scripts": {},
+  "activationEvents": [
+    "*"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "extensionPack": [
+    "AdrienTecher.aesthetics-essentials",
+    "AdrienTecher.enhance-me",
+    "AdrienTecher.just-cant-git-enough",
+    "AdrienTecher.markdown-essentials"
+  ],
+  "extensionDependencies": [
+    "AdrienTecher.aesthetics-essentials",
+    "AdrienTecher.enhance-me",
+    "AdrienTecher.just-cant-git-enough",
+    "AdrienTecher.markdown-essentials"
+  ],
+  "devDependencies": {
+    "vsce": "^1.100.0"
+  }
+}

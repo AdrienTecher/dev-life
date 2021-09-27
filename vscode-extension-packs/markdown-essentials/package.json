@@ -1,0 +1,57 @@
+{
+  "name": "markdown-essentials",
+  "displayName": "Markdown Essentials",
+  "description": "Bring power to your markdown editing.",
+  "version": "0.0.1",
+  "publisher": "AdrienTecher",
+  "author": {
+    "name": "Adrien Techer"
+  },
+  "icon": "assets/markdown.png",
+  "galleryBanner": {
+    "color": "#399e64",
+    "theme": "dark"
+  },
+  "keywords": [
+    "markdown",
+    "linter",
+    "emojis",
+    "productivity",
+    "essential",
+    ""
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "license": "MIT",
+  "main": "./build/extension",
+  "bugs": {
+    "url": "https://github.com/AdrienTecher/dev-life/issues",
+    "email": "adrien.techer.public@protonmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdrienTecher/dev-life.git"
+  },
+  "homepage": "https://github.com/AdrienTecher/dev-life/blob/main/vscode-extension-packs/markdown-essentials/README.md",
+  "scripts": {},
+  "activationEvents": [
+    "*"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "extensionPack": [
+    "yzhang.markdown-all-in-one",
+    "DavidAnson.vscode-markdownlint",
+    "bierner.markdown-emoji"
+  ],
+  "extensionDependencies": [
+    "yzhang.markdown-all-in-one",
+    "DavidAnson.vscode-markdownlint",
+    "bierner.markdown-emoji"
+  ],
+  "devDependencies": {
+    "vsce": "^1.100.0"
+  }
+}

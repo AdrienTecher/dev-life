@@ -1,0 +1,77 @@
+{
+  "name": "enhance-me",
+  "displayName": "Enhance Me",
+  "description": "Enhance your experience, augment your capabilities, increase your productivity",
+  "version": "0.0.1",
+  "publisher": "AdrienTecher",
+  "author": {
+    "name": "Adrien Techer"
+  },
+  "icon": "assets/enhance.png",
+  "galleryBanner": {
+    "color": "#1a3fa5",
+    "theme": "dark"
+  },
+  "keywords": [
+    "intellisense",
+    "AI",
+    "code completion",
+    "snippets",
+    "code runner",
+    "tabnine",
+    "case",
+    "camelCase",
+    "image",
+    "preview",
+    "file",
+    "files",
+    "emoji",
+    "emojis",
+    "essential",
+    ""
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "license": "MIT",
+  "main": "./build/extension",
+  "bugs": {
+    "url": "https://github.com/AdrienTecher/dev-life/issues",
+    "email": "adrien.techer.public@protonmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdrienTecher/dev-life.git"
+  },
+  "homepage": "https://github.com/AdrienTecher/dev-life/blob/main/vscode-extension-packs/enhance-me/README.md",
+  "scripts": {},
+  "activationEvents": [
+    "*"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "extensionPack": [
+    "formulahendry.code-runner",
+    "christian-kohler.path-intellisense",
+    "TabNine.tabnine-vscode",
+    "wmaurer.change-case",
+    "kisstkondoros.vscode-gutter-preview",
+    "sleistner.vscode-fileutils",
+    "bierner.emojisense",
+    "brunnerh.insert-unicode"
+  ],
+  "extensionDependencies": [
+    "formulahendry.code-runner",
+    "christian-kohler.path-intellisense",
+    "TabNine.tabnine-vscode",
+    "wmaurer.change-case",
+    "kisstkondoros.vscode-gutter-preview",
+    "sleistner.vscode-fileutils",
+    "bierner.emojisense",
+    "brunnerh.insert-unicode"
+  ],
+  "devDependencies": {
+    "vsce": "^1.100.0"
+  }
+}
