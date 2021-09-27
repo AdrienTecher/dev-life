@@ -1,0 +1,78 @@
+{
+  "name": "aesthetics-essentials",
+  "displayName": "Aesthetics Essentials",
+  "description": "Welcome to a beautiful developer life.",
+  "version": "0.0.1",
+  "publisher": "AdrienTecher",
+  "author": {
+    "name": "Adrien Techer"
+  },
+  "icon": "assets/enso_tree.png",
+  "galleryBanner": {
+    "color": "#399e64",
+    "theme": "dark"
+  },
+  "keywords": [
+    "prettier",
+    "bracket",
+    "color",
+    "colour",
+    "one dark pro",
+    "icons",
+    "material icon theme",
+    "spelling",
+    "formatter",
+    "comments",
+    "colorizer",
+    "spell checker",
+    "bookmarks",
+    "beautiful",
+    "pretty",
+    "aesthetics",
+    "esthetics",
+    "essential",
+    ""
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "license": "MIT",
+  "main": "./build/extension",
+  "bugs": {
+    "url": "https://github.com/AdrienTecher/dev-life/issues",
+    "email": "adrien.techer.public@protonmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdrienTecher/dev-life.git"
+  },
+  "homepage": "https://github.com/AdrienTecher/dev-life/blob/main/vscode-extension-packs/esthetics-essentials/README.md",
+  "scripts": {},
+  "activationEvents": [
+    "*"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "extensionPack": [
+    "PKief.material-icon-theme",
+    "zhuangtongfa.Material-theme",
+    "esbenp.prettier-vscode",
+    "CoenraadS.bracket-pair-colorizer",
+    "streetsidesoftware.code-spell-checker",
+    "tintinweb.vscode-inline-bookmarks",
+    "aaron-bond.better-comments"
+  ],
+  "extensionDependencies": [
+    "PKief.material-icon-theme",
+    "zhuangtongfa.Material-theme",
+    "esbenp.prettier-vscode",
+    "CoenraadS.bracket-pair-colorizer",
+    "streetsidesoftware.code-spell-checker",
+    "tintinweb.vscode-inline-bookmarks",
+    "aaron-bond.better-comments"
+  ],
+  "devDependencies": {
+    "vsce": "^1.100.0"
+  }
+}

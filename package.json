@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "git@github.com:AdrienTecher/dev-life.git",
   "author": "Adrien Techer",
-  "license": "LICENSE see in LICENSE",
+  "license": "SEE LICENSE IN LICENSE",
   "private": false,
   "devDependencies": {
     "generator-code": "^1.6.2",
