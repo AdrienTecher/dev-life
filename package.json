@@ -1,0 +1,14 @@
+{
+  "name": "dev-life",
+  "version": "1.0.0",
+  "description": "A repositories for my various configurations, extension packs and templates.",
+  "main": "index.js",
+  "repository": "git@github.com:AdrienTecher/dev-life.git",
+  "author": "Adrien Techer",
+  "license": "LICENSE see in LICENSE",
+  "private": false,
+  "devDependencies": {
+    "generator-code": "^1.6.2",
+    "yo": "^4.3.0"
+  }
+}
